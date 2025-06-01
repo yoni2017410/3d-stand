@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // החלף בכתובות האימייל האמיתיות שלך!
-    $to = "your@email.com, friend@email.com"; // יש לשנות את זה!
+    
+    $to = "koganyon7@email.com, friend@email.com"; // יש לשנות את זה!
 
     $subject = "הודעה חדשה מהאתר - קובץ STL";
     $body = "שם: $name\nאימייל: $email\n\nהודעה:\n$message";
